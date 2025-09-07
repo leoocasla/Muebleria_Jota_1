@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "nombre": "Aparador Uspallata",
+    "descripcion": "Aparador de living",
+    "precio": 145000,
+    "imagen": "media/Aparador Uspallata.png"
+  },
+  {
+    "id": 2,
+    "nombre": "Biblioteca Recoleta",
+    "descripcion": "Biblioteca modular de estantes",
+    "precio": 98000,
+    "imagen": "media/Biblioteca Recoleta.png"
+  },
+  {
+    "id": 3,
+    "nombre": "Butaca Mendoza",
+    "descripcion": "Butaca tapizada para living",
+    "precio": 87500,
+    "imagen": "media/Butaca Mendoza.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Sillón Copacabana",
+    "descripcion": "Sillón lounge giratorio",
+    "precio": 132000,
+    "imagen": "media/Sillón Copacabana.png"
+  },
+  {
+    "id": 5,
+    "nombre": "Mesa de Centro Araucaria",
+    "descripcion": "Mesa de centro circular",
+    "precio": 112000,
+    "imagen": "media/Mesa de Centro Araucaria.png"
+  },
+  {
+    "id": 6,
+    "nombre": "Mesa de Noche Aconcagua",
+    "descripcion": "Mesa de noche con cajón",
+    "precio": 69500,
+    "imagen": "media/Mesa de Noche Aconcagua.png"
+  },
+  {
+    "id": 7,
+    "nombre": "Cama Neuquén",
+    "descripcion": "Cama plataforma con cabecero",
+    "precio": 158000,
+    "imagen": "media/Cama Neuquen.png"
+  },
+  {
+    "id": 8,
+    "nombre": "Sofá Patagonia",
+    "descripcion": "Sofá de tres cuerpos",
+    "precio": 168000,
+    "imagen": "media/Sofá Patagonia.png"
+  },
+  {
+    "id": 9,
+    "nombre": "Mesa Comedor Pampa",
+    "descripcion": "Mesa extensible de comedor",
+    "precio": 154000,
+    "imagen": "media/Mesa Comedor Pampa.png"
+  },
+  {
+    "id": 10,
+    "nombre": "Sillas Córdoba",
+    "descripcion": "Set de sillas apilables",
+    "precio": 92000,
+    "imagen": "media/Sillas Córdoba.png"
+  },
+  {
+    "id": 11,
+    "nombre": "Escritorio Costa",
+    "descripcion": "Escritorio compacto con cajón",
+    "precio": 84500,
+    "imagen": "media/Escritorio Costa.png"
+  },
+  {
+    "id": 12,
+    "nombre": "Silla de Trabajo Belgrano",
+    "descripcion": "Silla ergonómica regulable",
+    "precio": 76500,
+    "imagen": "media/Silla de Trabajo Belgrano.png"
+  }
+]

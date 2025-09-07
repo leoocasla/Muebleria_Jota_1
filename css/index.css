@@ -1,0 +1,352 @@
+
+
+/* estilos header */
+.inicio-header {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+
+.inicio-header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.inicio-logo img {
+  height: 40px;
+  width: auto;
+}
+
+.inicio-nav-bar .inicio-nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.inicio-nav-links a {
+  font-family: var(--font-primaria);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--color-siena-tostado);
+  transition: color 0.3s ease;
+}
+
+.inicio-header-icono {
+  display: flex;
+  gap: 1rem;
+}
+
+.inicio-header-icono button {
+  font-family: var(--font-primaria);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 1rem;
+  background-color: var(--color-alabastro-calido);
+  border: none;
+  color: #333;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+/* estilos hero banner*/
+.inicio-hero-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 1rem;
+  padding: 0;
+}
+
+.inicio-hero-left {
+  width: 100%;
+  text-align: center;
+}
+
+.inicio-titulo {
+  font-family: var(--font-secundaria);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 2.5rem;
+  color: var(--color-siena-tostado);
+  margin-bottom: 1rem;
+}
+
+.inicio-descripcion {
+  font-family: var(--font-primaria);
+  font-weight: 400;
+  font-size: 1rem;
+  color: #555;
+}
+
+.inicio-hero-right {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inicio-image-circle {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#inicio-hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* NOSOTROS */
+.nosotros-section {
+  padding: 4rem 1rem;
+  background-color: #e9e3cd;
+}
+
+.nosotros-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.nosotros-titulo {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* estilos productos destacados */
+.productos-destacados {
+  padding: 3rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.titulo-seccion {
+  font-family: var(--font-secundaria);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contenedor-productos {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.producto-card {
+  max-width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.176);
+  text-align: center;
+  transition: transform 0.4s ease;
+}
+
+.producto-card:hover {
+  transform: scale(1.05);
+}
+
+.producto-card img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.producto-card h5 {
+  font-family: var(--font-primaria);
+  font-weight: 500;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.producto-card p {
+  font-family: var(--font-primaria);
+  font-weight: 700;
+  font-size: 1rem;
+  color: #444;
+  margin: 0.5rem 0;
+}
+
+.producto-card button,
+.btn-ver-mas {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--font-primaria);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.9rem;
+}
+
+/* estilos seccion navegacion rapida */
+.navegacion-rapida {
+  padding: 2rem 1rem;
+}
+
+.navegacion-titulo {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-family: var(--font-secundaria);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.navegacion-contenedor {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.navegacion-card {
+  width: 100%;
+  max-width: 300px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  text-align: center;
+  padding: 2rem 1rem;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.163);
+  transition: transform 0.35s ease;
+  border: 2px solid #5a4e3c;
+}
+
+.navegacion-card:hover {
+  transform: scale(1.05);
+}
+
+.navegacion-label {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+/* FOOTER */
+.inicio-footer-site {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+.inicio-footer-contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.inicio-footer-texto {
+  font-size: 1rem;
+  color: #333;
+}
+
+.inicio-footer-linea {
+  width: 100%;
+  height: 1px;
+  background: #5a4e3c;
+  margin-bottom: 1rem;
+}
+
+
+i {
+  font-size: 1.3rem;
+}
+@media (min-width: 900px) {
+  .inicio-header-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .inicio-nav-bar .inicio-nav-links {
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .inicio-hero-main {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .inicio-hero-left {
+    text-align: left;
+    flex: 1;
+  }
+  .inicio-hero-right {
+    flex: 1;
+  }
+  .inicio-image-circle {
+    width: 320px;
+    height: 320px;
+  }
+  .contenedor-productos,
+  .navegacion-contenedor {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .producto-card,
+  .navegacion-card {
+    width: 300px;
+    
+  }
+}
+@media (min-width: 600px) {
+  .inicio-hero-main {
+    padding: 5rem 10rem;
+  }
+  .nosotros-section,
+  .productos-destacados,
+  .navegacion-rapida {
+    padding: 4rem 1rem;
+  }
+  .titulo-seccion,
+  .nosotros-titulo,
+  .navegacion-titulo {
+    font-size: 2rem;
+  }
+}
