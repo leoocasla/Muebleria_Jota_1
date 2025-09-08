@@ -35,4 +35,6 @@ La implementación incluye:
 - JSON estructurado  
 - Git y GitHub para control de versiones
 
+## Enlace al sitio web desplegado en github pages: https://leoocasla.github.io/Muebleria_Jota_1/
+
 ---
