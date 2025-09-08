@@ -1,0 +1,90 @@
+:root {
+    --color-siena-tostado: #A0522D;
+    --color-verde-salvia: #87A96B;
+    --color-alabastro-calido: #F5E6D3;
+    --color-vara-de-oro: #D4A437;
+    --color-rosa-polvoriento: #C47A6D;
+      /* Fuentes */
+    --font-primaria: 'Inter', sans-serif;
+    --font-secundaria: 'Playfair Display', serif;
+}
+body {
+    font-family: var(--font-primaria);
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 1.6;
+    color: #333;
+    background-color: var(--color-alabastro-calido);
+    }
+
+.contacto-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+h2 {
+    grid-column: span 2;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: var(--font-secundaria);
+    color: var(--color-siena-tostado);
+}
+.info-contacto {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.info-contacto h3, .formulario h3 {
+    font-family: var(--font-secundaria);
+    margin-bottom: 15px;
+    color: var(--color-verde-salvia);
+    }
+.info-contacto p {
+    margin: 10px 0;
+    color: #666;
+}
+.formulario {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: var(--font-primaria);
+}
+form button {
+    background: #8B4513; /* Marrón estilo madera */
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    background: var(--color-siena-tostado);
+}
+form button:hover {
+    background: var(--color-rosa-polvoriento);
+}
+    /* Responsive */
+@media (max-width: 768px) {
+    .contacto-container {
+        grid-template-columns: 1fr;
+    }
+    h2 {
+        grid-column: span 1;
+    }
+}
