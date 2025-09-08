@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-siena-tostado: #A0522D;
+  --color-verde-salvia: #87A96B;
+  --color-alabastro-calido: #F5E6D3;
+  --color-vara-de-oro: #D4A437;
+  --color-rosa-polvoriento: #C47A6D;
+  /* Fuentes */
+   --font-primaria: 'Inter', sans-serif;
+  --font-secundaria: 'Playfair Display', serif;
+}
+body {
+  font-family: var(--font-primaria);
+  font-weight: 400;
+  font-size: 12pt;
+  line-height: 1.6;
+  color: #333;
+}
